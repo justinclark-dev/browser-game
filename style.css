@@ -1,0 +1,41 @@
+.table {
+    background-color: green;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.hand {
+    display: flex;
+    gap: 1em;
+}
+.card {
+    background-color: white;
+    height: 105px;
+    width: 75px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.suitColorBlack {
+    color: black;
+}
+.suitColorBlack {
+    color: black;
+}
+.suitColorRed {
+    color: red;
+}
+.player-buttons button {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+#yes-btn {
+    background-color: lime;
+}
+#no-btn {
+    background-color: red;
+    color: white;
+}
+
